@@ -1,0 +1,175 @@
+.video-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures video covers the full screen */
+  z-index: -1; /* Push video behind content */
+}
+
+.dabba{
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  
+}
+
+.card{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 12%;
+  height: 430px;
+  width: 270px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.img{
+
+  display: flex;
+  overflow: hidden;
+  top:10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  
+
+}
+
+h2{
+  position: relative;
+  top: 10px;
+  text-align: center;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  font-size: 22px;
+  color: #333;
+  font-weight: 600;
+}
+
+.links{
+
+  
+  margin-top: 15px;
+  height:240px;
+  width:240px
+
+}
+
+.linkedin{
+
+  display: flex;
+  border: 2px solid black;
+  height: 18%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  margin-bottom: 3px;
+}
+
+.twitter{
+
+  display: flex;
+  border: 2px solid black;
+  height: 18%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  margin-bottom: 3px;
+}
+
+.github{
+
+  display: flex;
+  border: 2px solid black;
+  height: 18%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  margin-bottom: 3px;
+}
+
+.instagram{
+
+  display: flex;
+  border: 2px solid black;
+  height: 18%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  margin-bottom: 3px;
+}
+
+.telegram{
+
+  display: flex;
+  border: 2px solid black;
+  height: 18%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  margin-bottom: 3px;
+}
+
+.ld-icon{
+
+  display: flex;
+  margin-right: 80px;
+  height: 18px;
+  width: 18px;
+}
+
+.tr-icon{
+
+  display: flex;
+  margin-right: 73px;
+  height: 18px;
+  width: 18px;
+}
+
+.gh-icon{
+
+  display: flex;
+  margin-right: 92px;
+  height: 18px;
+  width: 18px;
+}
+
+.ig-icon{
+
+  display: flex;
+  margin-right: 68px;
+  height: 18px;
+  width: 18px;
+}
+
+.tg-icon{
+
+  display: flex;
+  margin-right: 72px;
+  height: 18px;
+  width: 18px;
+}
+p{
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  font-size: 18px;
+  color: #333;
+  font-weight: 600;
+  margin-right: 40px;
+}
